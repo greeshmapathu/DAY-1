@@ -1,8 +1,74 @@
 h1{
-    color: red;
+    color: rgb(8, 0, 0);
 }
 #content{
     display:flex;
-    justify-content: right;
+    justify-content:last baseline;
     
 }
+/* .bgimage {
+    height:100vh;
+    background: url(./image/IMG_20220222_182504_957.jpg);
+    background-size:cover;
+    position:relative;
+} */
+/* #bgimage{
+    align-items:center;
+} */
+#text{
+    align-items: center;
+}
+
+.box{
+    width: 50px;
+    height: 800px;
+    color: blue;
+    margin: 100px;
+    padding: 40px 0px;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h1{
+    font-size: 60px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  h2{
+    color: black;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+  }
+
+
+
+  .centered1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .centered1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
